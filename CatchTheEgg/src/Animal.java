@@ -18,7 +18,7 @@ public class Animal extends Thread{
 	}
 	
 	public void run(){
-		/*if("press A"){
+		if("press A"){
 		animals.addAnimal(1);
 	}
 	if ("press S"){
@@ -33,7 +33,7 @@ public class Animal extends Thread{
 	if ("left arrow" && posBasket>0){
 		posBasket--;
 	}
-*/
+
 	}
 
 }

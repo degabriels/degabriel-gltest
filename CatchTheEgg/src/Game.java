@@ -30,6 +30,7 @@ public class Game {
 		return (looseShit() || looseEgg());
 	}
 	
+	// adapts the level of difficulty
 	public void controlLevel(){
 		if (nbEggCollected > 20*level){
 			this.level++;
@@ -44,11 +45,11 @@ public class Game {
 		}
 		
 		public void run(){
-			if (//"right arrow" && 
+			if ("right arrow" && 
 					posBasket<10){
 				posBasket++;
 			}
-			if (//"left arrow" 
+			if ("left arrow" 
 					&& posBasket>0){
 				posBasket--;
 			}
